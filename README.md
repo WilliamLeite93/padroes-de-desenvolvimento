@@ -1,33 +1,45 @@
-📘 Design Pattern Strategy 
+📘 Design Pattern — Strategy
 
-O Strategy é um padrão de desenvolvimento pertencente ao grupo dos padrões comportamentais, responsáveis por definir como classes e objetos se comportam e se comunicam entre si. Ele é utilizado quando existe mais de uma forma de realizar uma mesma tarefa, permitindo trocar essas formas de maneira flexível sem depender de vários condicionais como if, else ou switch. A ideia central é separar cada comportamento em classes independentes, chamadas de estratégias. 
+O Strategy é um padrão de desenvolvimento pertencente ao grupo dos padrões comportamentais, responsáveis por definir como classes e objetos se comportam e se comunicam entre si.
+
+Ele é utilizado quando existe mais de uma forma de realizar uma mesma tarefa, permitindo trocar essas formas de maneira flexível sem depender de vários condicionais como if, else ou switch.
+
+A ideia central é separar cada comportamento em classes independentes, chamadas de estratégias.
 
 🎯 Ideia Principal
 
-Criar uma interface que define o comportamento comum. Criar uma classe para cada variação desse comportamento. Trocar a estratégia sempre que necessário, sem alterar o código principal. 
+Criar uma interface que define o comportamento comum.
 
-🧩 Por que usar Strategy? O objetivo é manter o código organizado, flexível e coerente com princípios como SOLID. O Strategy não elimina completamente condicionais, mas garante que eles existam apenas onde realmente fazem sentido, sem quebrar boas práticas. 
+Criar uma classe para cada variação desse comportamento.
 
-✅ Pontos Fortes 
+Trocar a estratégia sempre que necessário, sem alterar o código principal.
 
-✔️ Reduz blocos repetitivos de if/else 
+🧩 Por que usar Strategy?
 
-✔️ Comportamentos isolados, limpos e fáceis de testar 
+O objetivo é manter o código organizado, flexível e coerente com princípios como SOLID.
+O Strategy não elimina completamente condicionais, mas garante que eles existam apenas onde realmente fazem sentido (ex.: validação de entrada), sem quebrar boas práticas.
 
-✔️ Permite adicionar novas estratégias sem mexer no código existente 
+✅ Pontos Fortes
 
-✔️ Comportamento pode ser trocado em tempo de execução 
+✔️ Reduz blocos repetitivos de if/else
 
-⚠️ Pontos Fracos 
+✔️ Comportamentos isolados, limpos e fáceis de testar
 
-❌ Aumenta o número de classes 
+✔️ Permite adicionar novas estratégias sem mexer no código existente
 
-❌ Pode ser “overkill” para casos muito simples 
+✔️ Comportamento pode ser trocado em tempo de execução
 
-📝 Resumo Final 
+⚠️ Pontos Fracos
 
-O Strategy separa o “como fazer” do “quando fazer”, permitindo trocar comportamentos de forma flexível e organizada. Ele não serve para remover condicionais, mas sim para evitar violações do SOLID e manter o código limpo, extensível e de fácil manutenção.
+❌ Aumenta o número de classes
 
+❌ Pode ser “overkill” para casos muito simples
+
+📝 Resumo Final
+
+O Strategy separa o “como fazer” do “quando fazer”, permitindo trocar comportamentos de forma flexível e organizada.
+
+Ele não serve para remover condicionais, mas sim para evitar violações do SOLID e manter o código limpo, extensível e de fácil manutenção.
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 📘 Design Pattern — Observer

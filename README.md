@@ -1,6 +1,9 @@
-📘 Design Pattern — Strategy O Strategy é um padrão de desenvolvimento pertencente ao grupo dos padrões comportamentais, responsáveis por definir como classes e objetos se comportam e se comunicam entre si. Ele é utilizado quando existe mais de uma forma de realizar uma mesma tarefa, permitindo trocar essas formas de maneira flexível sem depender de vários condicionais como if, else ou switch. A ideia central é separar cada comportamento em classes independentes, chamadas de estratégias. 
+📘 Design Pattern 
 
-🎯 Ideia Principal 
+Strategy O Strategy é um padrão de desenvolvimento pertencente ao grupo dos padrões comportamentais, responsáveis por definir como classes e objetos se comportam e se comunicam entre si. Ele é utilizado quando existe mais de uma forma de realizar uma mesma tarefa, permitindo trocar essas formas de maneira flexível sem depender de vários condicionais como if, else ou switch. A ideia central é separar cada comportamento em classes independentes, chamadas de estratégias. 
+
+🎯 Ideia Principal
+
 Criar uma interface que define o comportamento comum. Criar uma classe para cada variação desse comportamento. Trocar a estratégia sempre que necessário, sem alterar o código principal. 
 
 🧩 Por que usar Strategy? O objetivo é manter o código organizado, flexível e coerente com princípios como SOLID. O Strategy não elimina completamente condicionais, mas garante que eles existam apenas onde realmente fazem sentido, sem quebrar boas práticas. 
@@ -25,7 +28,7 @@ Criar uma interface que define o comportamento comum. Criar uma classe para cada
 
 O Strategy separa o “como fazer” do “quando fazer”, permitindo trocar comportamentos de forma flexível e organizada. Ele não serve para remover condicionais, mas sim para evitar violações do SOLID e manter o código limpo, extensível e de fácil manutenção.
 
--------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 📘 Design Pattern — Observer
 
@@ -74,7 +77,7 @@ Ele separa quem muda (subject) de quem reage à mudança (observers), mantendo o
 
 Assim, sempre que o estado do subject se altera, todos os observers são automaticamente informados — sem condicionais, sem dependências diretas e com máxima flexibilidade.
 
--------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 📘 Comparação entre Strategy e Observer — Como funcionam e como se complementam
 

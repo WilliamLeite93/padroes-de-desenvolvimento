@@ -1,6 +1,6 @@
-📘 Design Pattern 
+📘 Design Pattern Strategy 
 
-Strategy O Strategy é um padrão de desenvolvimento pertencente ao grupo dos padrões comportamentais, responsáveis por definir como classes e objetos se comportam e se comunicam entre si. Ele é utilizado quando existe mais de uma forma de realizar uma mesma tarefa, permitindo trocar essas formas de maneira flexível sem depender de vários condicionais como if, else ou switch. A ideia central é separar cada comportamento em classes independentes, chamadas de estratégias. 
+O Strategy é um padrão de desenvolvimento pertencente ao grupo dos padrões comportamentais, responsáveis por definir como classes e objetos se comportam e se comunicam entre si. Ele é utilizado quando existe mais de uma forma de realizar uma mesma tarefa, permitindo trocar essas formas de maneira flexível sem depender de vários condicionais como if, else ou switch. A ideia central é separar cada comportamento em classes independentes, chamadas de estratégias. 
 
 🎯 Ideia Principal
 

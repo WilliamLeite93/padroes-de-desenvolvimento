@@ -37,9 +37,7 @@ O Strategy não elimina completamente condicionais, mas garante que eles existam
 
 📝 Resumo Final
 
-O Strategy separa o “como fazer” do “quando fazer”, permitindo trocar comportamentos de forma flexível e organizada.
-
-Ele não serve para remover condicionais, mas sim para evitar violações do SOLID e manter o código limpo, extensível e de fácil manutenção.
+O Strategy separa o “como fazer” do “quando fazer”, permitindo trocar comportamentos de forma flexível e organizada, sendo assim, ele não serve para remover condicionais por completo do código, mas sim para evitar violações do SOLID e manter o código limpo, extensível e de fácil manutenção.
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 📘 Design Pattern — Observer

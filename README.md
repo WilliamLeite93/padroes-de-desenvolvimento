@@ -95,59 +95,11 @@ Embora Strategy e Observer sejam dois padrões comportamentais diferentes, ambos
 organizar comportamentos, reduzir acoplamento e aumentar a flexibilidade do sistema.
 No entanto, cada um resolve problemas distintos dentro de um software.
 
-🔍 1. Quando usar cada padrão?
-Strategy — Escolha como um comportamento será executado
-
-Use quando você tem várias maneiras de realizar uma mesma tarefa
-(ex.: calcular frete, aplicar descontos, escolher método de autenticação).
-
-A ideia é trocar o comportamento em tempo de execução, como trocar o “motor” de uma função.
-
-👉 Responde à pergunta: “Qual estratégia usar para executar essa ação?”
-
-Observer — Reagir automaticamente a uma mudança
-
-Use quando um objeto deve avisar vários outros sobre alterações de estado
-(ex.: saldo atualizado, evento disparado, botão clicado, log gerado).
-
-A ideia é disparar efeitos colaterais organizados e descentralizados.
-
-👉 Responde à pergunta: “Quem deve ser notificado quando algo mudar?”
-
-🔧 2. Tipo de acoplamento
-Strategy
-
-Mantém o código principal simples
-
-Substitui if/else por classes de comportamento
-
-Reduz acoplamento entre decisão e implementação
-
-Observer
-
-Mantém o subject isolado
-
-Observadores são independentes entre si
-
-Reduz acoplamento entre quem muda e quem reage
-
-🧠 3. Como eles resolvem problemas diferentes
-Padrão	Problema que resolve	Exemplo
-Strategy	Escolher o comportamento apropriado	“Qual cálculo aplicar?”
-Observer	Propagar mudanças automaticamente	“Alguém precisa saber que o saldo mudou?”
-🤝 4. Como eles se complementam
-
 É comum os dois padrões aparecerem juntos em sistemas reais.
 
 Exemplo prático: Sistema bancário
 
 Strategy pode definir como calcular taxas, descontos, juros, validações, etc.
-
-TaxaComum
-
-TaxaPremium
-
-TaxaEstudante
 
 Observer pode avisar automaticamente:
 
